@@ -47,7 +47,7 @@ The **{name}.TSS_m6A.txt.all.cov20.annot_exon.csv** file is what you need.
 
 ## Contact
 
-Email jil4026@med.cornell.edu or jhfoxliu@gmail.com if you have problems.
+Email jil4026@med.cornell.edu or jhfoxliu@gmail.com if you meet any problems.
 
 ## Citation
 
