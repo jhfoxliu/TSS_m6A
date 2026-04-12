@@ -8,6 +8,7 @@ Scripts to quantify internal m6A levels at 5'-isoform-specific manner from CROWN
 * Numpy
 * Biopython
 * Pysam
+* Bedtools
 
 ## Workflow:
 
@@ -51,6 +52,10 @@ You can use `sort -u` to remove the duplicates.
 (6) `get_TSS_m6A_pair_to_first_exon_end.py -i {name}.txt.all.cov20.csv -b {name}.sorted.first_exon_closest.bed -o {name}.TSS_m6A.txt.all.cov20.annot_exon.csv`
 
 The `{name}.TSS_m6A.txt.all.cov20.annot_exon.csv` file is what you need.
+
+## Demo
+
+A demo is available in the Under the `demo` folder: `Demo.ipynb` 
 
 ## Contact
 
