@@ -35,7 +35,7 @@ if __name__ == "__main__":
     df3.columns = ["chr", "end_0", "end_1", "TSS", "strand", "dist"]
 
     def fix_dist(x):
-        if x["dist"] <= 2000 and x["dist"] >= -2000:
+        if x["dist"] <= 20000 and x["dist"] >= -20000:
             if x["strand"] == "+":
                 return x["end_1"], x["dist"] + x["end_1"]
             elif x["strand"] == "-":
